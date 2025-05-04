@@ -1,0 +1,47 @@
+[
+  {
+    "title": "Rogue Legend",
+    "slug": "rogue-legend",
+    "category": "roguelike",
+    "thumbnail": "/images/rogue-legend-thumb.jpg",
+    "screenshots": ["/images/rogue-legend-1.jpg", "/images/rogue-legend-2.jpg"],
+    "iframeUrl": "https://game-embed-url.com/rogue-legend",
+    "howToPlay": "Use arrow keys to move, collect treasures, and avoid traps.",
+    "advantages": ["Randomly generated levels", "Permadeath for real challenge"],
+    "features": ["Pixel art graphics", "Multiple character classes"],
+    "gameplay": "Each run is unique. Explore dungeons, fight monsters, and survive as long as you can.",
+    "faq": [
+      {"q": "Can I save my progress?", "a": "No, each run is a new adventure."}
+    ]
+  },
+  {
+    "title": "Dungeon Escape",
+    "slug": "dungeon-escape",
+    "category": "roguelike",
+    "thumbnail": "/images/dungeon-escape-thumb.jpg",
+    "screenshots": ["/images/dungeon-escape-1.jpg"],
+    "iframeUrl": "https://game-embed-url.com/dungeon-escape",
+    "howToPlay": "Navigate the maze and find the exit before time runs out.",
+    "advantages": ["Fast-paced gameplay", "Challenging puzzles"],
+    "features": ["Timer-based levels", "Hidden secrets"],
+    "gameplay": "Solve puzzles and escape the dungeon in the shortest time possible.",
+    "faq": [
+      {"q": "Is there a leaderboard?", "a": "Yes, compete with players worldwide."}
+    ]
+  },
+  {
+    "title": "Action Hero",
+    "slug": "action-hero",
+    "category": "action",
+    "thumbnail": "/images/action-hero-thumb.jpg",
+    "screenshots": ["/images/action-hero-1.jpg"],
+    "iframeUrl": "https://game-embed-url.com/action-hero",
+    "howToPlay": "Jump, shoot, and defeat enemies to reach the goal.",
+    "advantages": ["Exciting combat", "Power-ups"],
+    "features": ["Boss fights", "Upgradeable weapons"],
+    "gameplay": "Fight your way through action-packed levels.",
+    "faq": [
+      {"q": "Can I play with a controller?", "a": "Yes, controllers are supported."}
+    ]
+  }
+]
