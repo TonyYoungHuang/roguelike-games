@@ -9,12 +9,26 @@ export default function GameDetail() {
     g => g.category.toLowerCase() === String(category).toLowerCase() && g.slug === slug
   )
 
+  // 调试用
+  console.log('game:', game);
+
   if (!game) return <Layout><p>Game not found.</p></Layout>
 
   return (
     <Layout>
       <h1>{game.title}</h1>
-      {/* 其他详情内容 */}
+      {game.iframeUrl ? (
+        <iframe
+          src={game.iframeUrl}
+          title={game.title}
+          width="100%"
+          height="600"
+          style={{ border: 'none', background: '#fff' }}
+          allowFullScreen
+        />
+      ) : (
+        <div style={{ color: 'white' }}>该游戏暂无试玩链接</div>
+      )}
     </Layout>
   )
 }
